@@ -50,7 +50,7 @@ $("#contactForm").submit(function(e) {
 
     // 4. If validation passes, proceed with the AJAX submission
     $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbydPXGKUqu-ydWG6WfS5dZr-jKomyMzLsyzC0P4r1WG5Jqa__KnZ0Q--QvZsxdUIiPjcw/exec",
+        url: "https://script.google.com/macros/s/AKfycbwjlv-Nr7D_jdslJFFBCgLpnsAHrSnn10NNu2f0MyOKmmqCctdchdV5alT6gdbGpUap/exec",
         data: $("#contactForm").serialize(),
         method: "post",
         success: function(response) {
